@@ -1,0 +1,134 @@
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact {
+    width: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact__form {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.contact__table {
+    width: 100%;
+}
+
+.contact__table__item {
+    width: 50%;
+    text-align: left;
+}
+
+.contact__table__itemname {
+    width: 150px;
+    padding-right: 10px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.contact__table__name__form {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.span {
+    color : red;
+}
+
+.contact__table__sname__ex, .contact__table__fname__ex {
+    color: lightgrey;
+    text-align: left;
+}
+
+.contact__table__ex {
+    color:lightgrey;
+    text-align: left;
+}
+
+.contact__table__sname__form, .contact__table__fname__form {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    text-align: left;
+}
+
+.contact__table__input__form {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+}
+
+.contact__table__input__postcode {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 380px;
+    height: 40px;
+}
+
+.contact__table__input__textarea {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 400px;
+    height: 130px;
+}
+
+.contact__button {
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="radio"] {
+    width: 40px;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    position: relative;
+}
+
+input[type="radio"]:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gender__label {
+    vertical-align: 50%;
+    margin-left: 5px;
+}
+
+.gender__radio {
+    margin-left: 30px;
+}
+
+.error {
+    color: red;
+    padding-bottom: 20px;
+}

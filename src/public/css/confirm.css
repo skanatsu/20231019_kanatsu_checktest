@@ -1,0 +1,63 @@
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.confirm {
+    width: 600px;
+    text-align: center;
+}
+
+.confirm__form {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.confirm__table {
+    width: 100%;
+}
+
+.confirm__table__itemname {
+    width: 150px;
+    padding-right: 10px;
+    vertical-align: top;
+    padding-top: 30px;
+    text-align: left;
+    height: 80px;
+}
+
+.confirm__table__content__form {
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact__table__input__form {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+}
+
+.confirm__button {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.modify__button {
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+
+

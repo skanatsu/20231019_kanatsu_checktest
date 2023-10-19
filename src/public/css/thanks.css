@@ -1,0 +1,14 @@
+.thanks {
+    width: 600px;
+    text-align: center;
+}
+
+.thanks__button {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
